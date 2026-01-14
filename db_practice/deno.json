@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "start": "echo 'helo'",
+    "dependency": "echo 'start'"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
